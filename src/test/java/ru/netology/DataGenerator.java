@@ -16,8 +16,8 @@ public class DataGenerator {
     }
 
     public static String generateDate(int shift) {
-        String dateOfMeeting = LocalDate.now().plusDays(3).format(DateTimeFormatter.ofPattern("dd.MM.yyyy"));
-        return dateOfMeeting;
+        String date = LocalDate.now().plusDays(3).format(DateTimeFormatter.ofPattern("dd.MM.yyyy"));
+        return date;
     }
 
 
